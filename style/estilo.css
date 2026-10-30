@@ -1,0 +1,117 @@
+/* Anulamos las variables de raíz y los anchos estrictos de Bootstrap */
+:root,
+:host {
+    scrollbar-gutter: auto;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    width: 100%;
+    background-color: #fff;
+    color: black;
+}
+
+
+.menu-items {
+    gap: 50px;
+}
+
+.navbar {
+    padding: 0 25px;
+    background-color: rgb(255, 255, 255);
+
+}
+
+.nav-link {
+    color: #05243f;
+    font-size: 1.rem;
+    font-weight: 500;
+    transition: color 0.5s ease-in-out;
+}
+
+.nav-item:hover .nav-link {
+    color: rgb(54, 42, 226);
+}
+
+.carousel {
+    border: none;
+    border-radius: none;
+}
+
+.drawer-header {
+    margin-left: 20px;
+}
+
+.drawer-body {
+    margin-right: 20px;
+}
+
+/* banner */
+.banner {
+    width: 90%;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.conteiner-img {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+
+}
+
+/* hero */
+.hero-content {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero {
+    width: 50%;
+    color: black;
+    border: px solid rgb(15, 15, 15);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.2);
+}
+
+.hero-title {
+    margin-bottom: 10px;
+}
+
+/* acerca de */
+.titulo-acerca {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+}
+
+.cuerpo-acerca {
+    width: 100%;
+    padding: 20px 100px;
+}
+
+.cuerpo-acerca p {
+    display: block;
+    width: 100%;
+}
+
+article {
+    margin-top: 20px;
+}
+
+.card-body {
+    padding: 20px;
+}
